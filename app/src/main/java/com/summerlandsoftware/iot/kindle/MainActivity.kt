@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
             )
         }
         val tv = TextView(this).apply {
-            text = "Hello, Kindle IoT 👋"
+            text = "Android App 👋"
             textSize = 24f
             gravity = Gravity.CENTER
             layoutParams = FrameLayout.LayoutParams(
