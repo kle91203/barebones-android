@@ -1,0 +1,59 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle.properties
+
+
+# Local configuration (contains SDK paths, machine-specific settings)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/navEditor.xml
+.idea/compiler.xml
+
+# Generated files
+.externalNativeBuild/
+.cxx/
+captures/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Keystore files (never check these in!)
+*.jks
+*.keystore
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+.kotlin/
+
+# Crashlytics / Firebase
+com_crashlytics_export_strings.xml
+
+# NDK / JNI
+obj/
+
+# Android Studio build cache (optional but often huge)
+.idea/sonarlint/
+.idea/deploymentTargetDropDown.xml
+
